@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Survey Form</title>
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <h1>Customer Information</h1>
+  <hr>
+  <h2>Customer Name</h2>
+  <div class="cname">
+    <form>
+      <div class="form-group">
+        <div class="name">
+          <input type="text" id="fname">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="name">
+          <input type="text" id="lname">
+          <label for="lname">Last Name</label>
+        </div>
+      </div>
+    </form>
+  </div> 
+  <h2>Address</h2>
+  <div class="address">
+    <form>
+      <input type="text" id="st-address"><div>
+      <label for="st-address">Street Address</label><div>
+      <input type="text" id="st-addres2"><div>
+      <label for="st-address2">Street Address Line 2</label><div>
+      <input type="text" id="city"><div>
+      <label for="city">City</label><div>
+      <input type="text" id="state"><div>
+      <label for="state">State / Province</label><div>
+      <input type="number" id="postal"><div>
+      <label for="postal">Postal /Zip Code</label>
+      <select id="please-select">
+        <option value="">Please Select</option>
+      </select>
+    </form>
+  </div>
+  <h2>Contact Number</h2>
+  <div class="c-number">
+    <input type="number" id="area-code"> -
+    <label for="area-code">Area Code</label>
+    <input type="tel" id="phone">
+    <label for="phone">Phone</label>
+  </div>
+  <h2>E-mail</h2>
+  <div class="Email">
+    <input type="email" id="email" placeholder="ex. myname@example.com" size="30">
+  </div>
+  <hr>
+  <br>
+ <div>
+  <label for="message"><h3>How long have you been using this product and why?</h3></label><br>
+  <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
+  </textarea>
+  </div>
+  <br>
+ <div>
+  <label for="message"><h3>Write your comments and sugeestions about our products in comparison with other<br> competitors:</h3></label><br>
+  <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
+  </textarea>
+  </div>
+  <br>
+  <div>
+  <label for="message"><h3>Are you satisfied with our prodcut performance? Share your opinions:</h3></label><br>
+  <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
+  </textarea>
+  </div>
+  <br>
+  <h3>Thank you for completing this survey!</h3>
+  <br>
+  <input type="submit">
+</body>
+</html>
