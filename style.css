@@ -1,6 +1,7 @@
 body{
   max-width: 700px;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .form-group{
   display: flex;
@@ -13,9 +14,135 @@ body{
   border: 1px solid #c7c3c3;
   margin-bottom: 10px;
   box-sizing: border-box;
+  margin: 8px 0;
 }
 
 .form-group .name{
   width: 45%;
 
+}
+
+.form-group1{
+  display: flex;
+  flex-direction: column;
+  border-spacing: 10px;
+ 
+}
+.form-group1 .address input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+.form-group1 .address label{
+  padding-bottom: 15px;
+}
+
+.form-group3{
+  display: flex;
+  justify-content: space-between;
+
+}
+.form-group3 .city-group input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+
+.form-group3 .city-group{
+  width: 45%;
+}
+
+.form-group3 .city-group .city1{
+  width: 115%;
+}
+
+.form-group4{
+  display: flex;
+  justify-content: space-between;
+
+}
+.form-group4 .postal input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+.form-group4 .postal select{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+.form-group4 .postal{
+  width: 45%;
+}
+
+.area-group{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.area-group .area-code input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  justify-items: left;
+  
+}
+
+.area-group .area-code{
+  width: 45%;
+  
+}
+
+.email input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+
+}
+
+.message1 textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+.message2 textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+.message3 textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7c3c3;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+input[type=submit]{
+  padding: 16px 32px;
+  margin: 4px 2px;
 }

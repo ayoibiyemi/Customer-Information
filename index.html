@@ -28,47 +28,78 @@
   <h2>Address</h2>
   <div class="address">
     <form>
-      <input type="text" id="st-address"><div>
-      <label for="st-address">Street Address</label><div>
-      <input type="text" id="st-addres2"><div>
-      <label for="st-address2">Street Address Line 2</label><div>
-      <input type="text" id="city"><div>
-      <label for="city">City</label><div>
-      <input type="text" id="state"><div>
-      <label for="state">State / Province</label><div>
-      <input type="number" id="postal"><div>
-      <label for="postal">Postal /Zip Code</label>
-      <select id="please-select">
-        <option value="">Please Select</option>
-      </select>
+      <div class="form-group1">
+        <div class="address">
+          <input type="text" id="st-address">
+          <label for="st-address">Street Address</label>
+        </div>
+        <div class="address">
+          <input type="text" id="st-addres2">
+          <label for="st-address2">Street Address Line 2</label>
+        </div>  
+      </div> 
+      <div class="form-group3">
+        <div class="city-group">
+          <input type="text" id="city" class="city1">
+          <label for="city">City</label>
+        </div>
+        <div class="city-group">
+          <input type="text" id="state">
+          <label for="state">State / Province</label>
+        </div>
+      </div>
+      <div class="form-group4">
+        <div class="postal">
+          <input type="text" id="zip">
+          <label for="zip">Postal / Zip Code</label>
+        </div>
+        <div class="postal">
+            <select id="country" name="country">
+              <option value="">Please Select</option>
+            </select> 
+            <label for="country">Country</label>  
+      </div>
     </form>
   </div>
   <h2>Contact Number</h2>
-  <div class="c-number">
-    <input type="number" id="area-code"> -
-    <label for="area-code">Area Code</label>
-    <input type="tel" id="phone">
-    <label for="phone">Phone</label>
-  </div>
-  <h2>E-mail</h2>
-  <div class="Email">
-    <input type="email" id="email" placeholder="ex. myname@example.com" size="30">
-  </div>
+  <div class="area">
+    <form>
+      <div class="area-group">
+        <div class="area-code">
+          <input type="number" id="areacode" class="areacode">
+          <label for="areacode">Area Code</label>
+        </div>
+        <div class="area-code">
+          <input type="number" id="phone" class="phone">
+          <label for="phone">Phone Number</label>
+        </div>
+      </div>
+      <div>
+        <h2>E-mail</h2>
+        <form>
+          <div class="email">
+            <input type="email" id="email" placeholder="ex. myname@example.com">
+          </div>
+        </form>
+      </div>
+    </form>
+  </div> 
   <hr>
+
   <br>
- <div>
+ <div class="message1">
   <label for="message"><h3>How long have you been using this product and why?</h3></label><br>
   <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
   </textarea>
   </div>
   <br>
- <div>
+ <div class="message2">
   <label for="message"><h3>Write your comments and sugeestions about our products in comparison with other<br> competitors:</h3></label><br>
   <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
   </textarea>
   </div>
   <br>
-  <div>
+  <div class="message3">
   <label for="message"><h3>Are you satisfied with our prodcut performance? Share your opinions:</h3></label><br>
   <textarea id="message" name="message" rows="5" cols="50" spellcheck="false">
   </textarea>
@@ -76,6 +107,8 @@
   <br>
   <h3>Thank you for completing this survey!</h3>
   <br>
-  <input type="submit">
+  <div class="submit">
+    <input type="submit">
+  </div>
 </body>
 </html>
